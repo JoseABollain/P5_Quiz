@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/credits', function(req, res, next) {
-  res.render('credits', { title: 'P5_Quiz', autor: 'José Antonio Bollaín González', imagen: 'images/image.jpg', alt: 'Imagen Proyecto Quiz'});
+  res.render('credits', { title: 'P5_Quiz', autor: 'Jose Antonio Bollaín González', imagen: 'images/image.jpg', alt: 'Imagen Proyecto Quiz'});
 });
 
 router.get('/quizzes', function(req, res, next) {
